@@ -14,10 +14,21 @@
 //  + "\n" + isBootstrap + "\n" + isAdaptation + "\n" + isGitHub + "\n" 
 //  + isDiffers + "\n" + terminalProcess);
 
-var result = Number ( prompt (`Summani kiriting` , 9648000));
 
-if(result >= 9648000){
+var result = prompt ("Summani kiriting");
+
+var a = (500);
+var b = (250);
+var c = (120);
+
+var x = (a *  10900)
+var y = (b *  10900)
+var z = (c *  12473)
+
+var o = (x + y + z);
+
+if(result >= o){
     console.log("Oq yo'l, Alisher");
-}else if(result <= 9648000){
+}else{
     console.log("Brat ketomisz soqqani qb keyin kelin");
 }
